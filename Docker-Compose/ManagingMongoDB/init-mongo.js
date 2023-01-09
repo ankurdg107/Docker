@@ -1,0 +1,10 @@
+db.createUser({
+    user:"Ankur",
+    pwd:"1204",
+    roles:[
+        {
+            role:"readWrite",
+            db:"MongoCompose"
+        }
+    ]
+})
